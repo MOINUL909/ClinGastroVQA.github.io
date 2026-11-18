@@ -1,0 +1,242 @@
+{
+  "image_id": "clbnxtoghbnmu074c2tds8xuc",
+  "true_class": "",
+  "predicted_class": "Instrument",
+  "class_confidence": 0.3111054003238678,
+  "correct": null,
+  "class_probs": {
+    "Esophagitis": 0.20811927318572998,
+    "Instrument": 0.3111054003238678,
+    "Normal": 0.13965539634227753,
+    "Polyps": 0.1715341955423355,
+    "Ulcerative Colitis": 0.16958576440811157
+  },
+  "procedure": "ans2idx",
+  "has_finding": true,
+  "finding_basis": "abnormality answer",
+  "n_findings": null,
+  "easy_to_detect": null,
+  "abnormalities": [
+    "ans2idx"
+  ],
+  "location": [
+    "ans2idx"
+  ],
+  "colors": [
+    "ans2idx"
+  ],
+  "n_polyps_vqa": null,
+  "polyp_type": "ans2idx",
+  "polyp_size_vqa": "ans2idx",
+  "polyps_removed": null,
+  "polyps_removed_raw": "ans2idx",
+  "instruments": [
+    "ans2idx"
+  ],
+  "n_instruments": null,
+  "instrument_location": [
+    "ans2idx"
+  ],
+  "landmarks": [
+    "ans2idx"
+  ],
+  "landmark_location": [
+    "ans2idx"
+  ],
+  "landmark_colors": [
+    "ans2idx"
+  ],
+  "box_artefact": null,
+  "text_present": null,
+  "n_polyps_detected": 1,
+  "detection_confidence": 0.28387725353240967,
+  "detection_quadrant": "center",
+  "boxes": [
+    [
+      80.6063232421875,
+      13.909423828125,
+      1079.13916015625,
+      958.5889892578125
+    ]
+  ],
+  "area_pct_mucosa": 90.91728734165196,
+  "size_category": ">20mm (proxy)",
+  "seg_model": "unconditioned",
+  "vqa": {
+    "procedure": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 3,
+      "in_coverage": true
+    },
+    "has_finding": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 1,
+      "in_coverage": false
+    },
+    "n_findings": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 7,
+      "in_coverage": true
+    },
+    "easy_detect": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 3,
+      "in_coverage": true
+    },
+    "abnormalities": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 10,
+      "in_coverage": true
+    },
+    "location": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 159,
+      "in_coverage": true
+    },
+    "color": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 196,
+      "in_coverage": true
+    },
+    "n_polyps": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 8,
+      "in_coverage": true
+    },
+    "polyp_type": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 7,
+      "in_coverage": true
+    },
+    "polyp_size": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 14,
+      "in_coverage": true
+    },
+    "polyps_removed": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 3,
+      "in_coverage": true
+    },
+    "instruments": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 11,
+      "in_coverage": true
+    },
+    "n_instruments": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 4,
+      "in_coverage": true
+    },
+    "instrument_location": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 110,
+      "in_coverage": true
+    },
+    "landmarks": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 5,
+      "in_coverage": true
+    },
+    "landmark_location": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 128,
+      "in_coverage": true
+    },
+    "landmark_color": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 22,
+      "in_coverage": false
+    },
+    "artefact_box": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 2,
+      "in_coverage": true
+    },
+    "text": {
+      "answer": "ans2idx",
+      "confidence": 1.0,
+      "free_answer": "ans2idx",
+      "free_confidence": 1.0,
+      "restricted": false,
+      "n_legal_answers": 2,
+      "in_coverage": true
+    }
+  },
+  "out_of_coverage": [
+    "has_finding",
+    "landmark_color"
+  ]
+}
